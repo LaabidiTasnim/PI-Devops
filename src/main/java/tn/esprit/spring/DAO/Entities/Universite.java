@@ -23,4 +23,12 @@ public class Universite implements Serializable {
     @OneToOne(cascade = CascadeType.ALL) //ajout, Modif et suppression
     Foyer foyer;
 
+
+    public long getIdUniversite() {
+        return idUniversite;
+    }
+
+    public void setIdUniversite(long idUniversite) {
+        this.idUniversite = idUniversite;
+    }
 }

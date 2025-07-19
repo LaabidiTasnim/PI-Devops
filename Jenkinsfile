@@ -1,9 +1,7 @@
 pipeline {
     agent {
-        docker {
-            image 'maven:3.8.6-openjdk-17'
-            args '-v /var/run/docker.sock:/var/run/docker.sock'  // pour permettre l’accès à Docker host si besoin
-        }
+        agent any
+
     }
 
     environment {

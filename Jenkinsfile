@@ -10,7 +10,7 @@ pipeline {
         SONAR_TOKEN = credentials('sonar-token-id')
         DOCKER_CREDENTIALS = credentials('dockerhub-credentials-id')
         NEXUS_CREDENTIALS = credentials('nexus-credentials-id')
-        IMAGE_NAME = 'tasnimdev/foyer-app' 
+        IMAGE_NAME = 'tasnimdev/foyer-app'
         VERSION = '1.0.0'
     }
 
